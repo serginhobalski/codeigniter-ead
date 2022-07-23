@@ -1405,6 +1405,14 @@ section.contact-us .right-info {
   padding: 40px;
 }
 
+section.contact-us a {
+  color: #fff;
+}
+section.contact-us a:hover {
+  color: #f25316;
+  background-color: #fff;
+}
+
 section.contact-us .right-info ul li {
   display: inline-block;
   border-bottom: 1px solid rgba(250,250,250,0.15);
