@@ -13,7 +13,7 @@ class UsuarioFakerSeeder extends Seeder
         // Usar o Faker para popular a tabela Usuários
         $faker = \Faker\Factory::create();
 
-        $qtdUsuariosCriados = 500;
+        $qtdUsuariosCriados = 10000;
 
         $usuariosPush = [];
 
@@ -23,7 +23,7 @@ class UsuarioFakerSeeder extends Seeder
                 'email' => $faker->unique()->email,
                 'cpf' => $faker->unique()->ssn,
                 'password_hash' => '123456',
-                'ativo' => true,
+                'ativo' => $faker->numberBetween(0, 1), //Ativo ou não ativo
             ]);
         }
 

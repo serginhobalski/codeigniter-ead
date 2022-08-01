@@ -44,11 +44,13 @@ class Usuarios extends BaseController
         $data = [];
 
         foreach($usuarios as $usuario){
+            $nomeUsuario = esc($usuario->nome);
+            
             $data[] = [
                 'imagem' => $usuario->imagem,
-                'nome' => esc($usuario->nome),
+                'nome' => anchor("usuarios/exibir/$usuario->id", esc($usuario->nome), 'title="Exibir usuário ' .$nomeUsuario.'"'),
                 'email' => esc($usuario->email),
-                'ativo' => ($usuario->ativo == true ? '<span class="text-success">Ativo</span>' : '<span class="text-warning">Inativo</span>'),
+                'ativo' => ($usuario->ativo == true ? '<span class="text-success"><i class="ti-check-box"></i> Ativo</span>' : '<span class="text-warning"><i class="ti-close"></i> Inativo</span>'),
             ];
         }
 
