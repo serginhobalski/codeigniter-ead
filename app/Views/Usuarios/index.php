@@ -1,19 +1,16 @@
-<?php
+<?php echo $this->extend('Layout/principal'); ?>
 
-$this->extend('Layout/principal');
+<?php  ?>
 
-$this->section('titulo'); 
-echo $titulo; 
-$this->endSection();
+<?php $this->section('titulo'); echo $titulo; $this->endSection(); ?>
 
 
-$this->section('estilos'); 
-$this->endSection();
+<?php $this->section('estilos'); ?>
 
 
-$this->section('conteudo'); 
-$this->endSection();
 
+<?php $this->section('conteudo'); ?>
 
-$this->section('scripts'); 
-$this->endSection();
+<h1><?php echo $titulo ?></h1>
+
+<?php $this->section('scripts'); $this->endSection(); ?>

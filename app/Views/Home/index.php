@@ -17,7 +17,7 @@ $this->endSection();
 // Renderizar conteúdo
 $this->section('conteudo'); ?>
 <!-- // ****Conteúdo aqui**** -->
-<h1>Estendendo layout</h1>
+<h1 style="color: #fff;">Estendendo layout</h1>
 <?php
 $this->endSection();
 
