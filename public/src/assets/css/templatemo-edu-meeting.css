@@ -1103,6 +1103,32 @@ section.apply-now .item p {
 
 /* 
 ---------------------------------------------
+users
+--------------------------------------------- 
+*/
+.usuarios {
+  background-color: #01012f;
+  color: #fff;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  padding: 15px;
+  border-color: #f25316;
+  border-radius: 20px;
+}
+
+.user-table {
+  border-color: #f25316;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 100%;
+}
+
+
+/* 
+---------------------------------------------
 courses
 --------------------------------------------- 
 */

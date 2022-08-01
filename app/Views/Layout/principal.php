@@ -42,12 +42,6 @@
         </div>
         <div class="col-lg-4 col-sm-4">
           <!-- <a class="btn btn-success" href="#">LOGAR</a> -->
-          <div class="right-icons">
-            <ul>
-              <li><a class="btn btn-success" href="#"><i class="ti-user"></i> LOGAR</a></li>
-              <li><a class="btn btn-warning" href="#"><i class="ti-save"></i> CADASTRAR</a></li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>
@@ -72,6 +66,8 @@
               <li class="scroll-to-section"><a href="#apply">Matrícula</a></li>
               <li class="scroll-to-section"><a href="#courses">Cursos</a></li>
               <li class="scroll-to-section"><a href="#contact">Contato</a></li>
+              <li><a class="btn btn-success" href="#"><i class="ti-user"></i> LOGAR</a></li>
+              <li><a class="btn btn-warning" href="#"><i class="ti-save"></i> CADASTRAR</a></li>
             </ul>
             <a class='menu-trigger'>
               <span>Menu</span>
