@@ -62,4 +62,24 @@ class Usuarios extends BaseController
 
 
     }
+
+    public function exibir(int $id = null)
+    {
+
+    }
+    /****
+     * Método que recupera usuário
+     * 
+     */
+    
+    private function buscaUsuarioOu404(int $id = null)
+    {
+        if(!$id || !$usuario = $this->UsuarioModel->withDeleted(true)->find($id)) {
+
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound("Não encontramos o usuário $id");
+
+        }
+
+        return $usuario;
+    }
 }
