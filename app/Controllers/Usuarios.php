@@ -66,12 +66,23 @@ class Usuarios extends BaseController
     public function exibir(int $id = null)
     {
 
+        $usuario = $this->buscaUsuarioOu404($id);
+
+        $data = [
+            'titulo' => "Detalhes do usuário ". esc($usuario->nome),
+            'usuario' => $usuario,
+        ];
+
+        return view('Usuarios/exibir', $data);
+
     }
-    /****
-     * Método que recupera usuário
+
+    /**
+     * Método que recupera o usuário
      * 
+     * @param integer $id
+     * @return Exceptions|object     * 
      */
-    
     private function buscaUsuarioOu404(int $id = null)
     {
         if(!$id || !$usuario = $this->UsuarioModel->withDeleted(true)->find($id)) {

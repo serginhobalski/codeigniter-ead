@@ -981,7 +981,7 @@ section.upcoming-meetings .categories .main-button-red a {
 }
 
 .meeting-item .down-content .date {
-  float: left;
+  /* float: left; */
   text-align: center;
   display: inline-block;
   margin-right: 20px;
@@ -1272,6 +1272,27 @@ section.our-courses {
   height: 50px;
   border-radius: 50%;
   line-height: 50px;
+}
+
+
+/*
+---------------------------------------------
+Forms
+---------------------------------------------
+*/
+
+.input-exibir {
+  width:fit-content;
+  padding-left: 10px;
+  background: none; 
+  border: none;
+  color: #f25316;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.img-exibir {
+  width: 100px;
 }
 
 
