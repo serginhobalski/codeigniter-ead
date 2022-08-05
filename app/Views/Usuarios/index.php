@@ -12,17 +12,17 @@ $this->endSection();
 $this->section('estilos'); ?>
 <!-- ****Estilos aqui**** -->
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs5/dt-1.12.1/r-2.3.0/datatables.min.css" />
-
 <?php $this->endSection(); ?>
-
 
 <!-- Renderizar conteúdo -->
 <?php $this->section('conteudo'); ?>
 <!-- ****Conteúdo aqui**** -->
 <?php  ?>
-<h1 style="color: #fff;">Listagem de Usuários</h1>
+</section>
+
 
 <section class="usuarios">
+    <h3 style="color: #fff; text-align: center;">Listagem de Usuários</h3>
     <div class="container" border="1">
         <table id="ajaxTable" class="user-table" style="width: 100%">
             <thead>

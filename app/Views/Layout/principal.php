@@ -61,11 +61,11 @@
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li class="scroll-to-section"><a href="#top" class="active"><i class="ti-home"></i></a></li>
-              <li><a href="cursos.php">Tutoria</a></li>
-              <li class="scroll-to-section"><a href="#apply">Matrícula</a></li>
-              <li class="scroll-to-section"><a href="#courses">Cursos</a></li>
-              <li class="scroll-to-section"><a href="#contact">Contato</a></li>
+              <li class="scroll-to-section"><a href="/home" class="active"><i class="ti-home"></i> Home</a></li>
+              <li><a href="/usuarios"><i class="ti-user"></i> Usuários</a></li>
+              <li class="scroll-to-section"><a href="/plataformas"><i class="ti-pencil-alt"></i> Sites</a></li>
+              <li class="scroll-to-section"><a href="#courses"><i class="ti-book"></i> Plataformas</a></li>
+              <li class="scroll-to-section"><a href="#contact"><i class="ti-mobile"></i> Contato</a></li>
               <li><a class="btn btn-success" href="#"><i class="ti-user"></i> LOGAR</a></li>
               <li><a class="btn btn-warning" href="#"><i class="ti-save"></i> CADASTRAR</a></li>
             </ul>

@@ -131,7 +131,7 @@ body {
 }
 
 ::selection {
-  background: #f25316;
+  background: rgba(242, 83, 22, 0.15);
   color: #fff;
 }
 
@@ -578,7 +578,7 @@ header
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
     color: #f25316!important;
-    opacity: 1;
+    opacity: 0.3;
   }
   .header-area.header-sticky .nav li.search-icon a {
     width: 100%;
