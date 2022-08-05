@@ -1,0 +1,238 @@
+CRITICAL - 2022-08-01 01:50:26 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$isAJAX
+in APPPATH\Controllers\Usuarios.php on line 29.
+ 1 APPPATH\Controllers\Usuarios.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$isAJAX', 'APPPATH\\Controllers\\Usuarios.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->recuperaUsuarios()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 01:55:16 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$isAJAX
+in APPPATH\Controllers\Usuarios.php on line 29.
+ 1 APPPATH\Controllers\Usuarios.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$isAJAX', 'APPPATH\\Controllers\\Usuarios.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->recuperaUsuarios()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 01:55:40 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$isAJAX
+in APPPATH\Controllers\Usuarios.php on line 29.
+ 1 APPPATH\Controllers\Usuarios.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$isAJAX', 'APPPATH\\Controllers\\Usuarios.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->recuperaUsuarios()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 01:57:30 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$isAJAX
+in APPPATH\Controllers\Usuarios.php on line 29.
+ 1 APPPATH\Controllers\Usuarios.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$isAJAX', 'APPPATH\\Controllers\\Usuarios.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->recuperaUsuarios()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-01 09:12:20 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2022-08-01 09:12:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nome`, `email`, `ativo`, `imagem`
+FROM `usuarios`
+WHERE `usuarios`.`deletado_em` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Usuarios.php(42): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->recuperaUsuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-01 09:14:25 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2022-08-01 09:14:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nome`, `email`, `ativo`, `imagem`
+FROM `usuarios`
+WHERE `usuarios`.`deletado_em` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Usuarios.php(42): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->recuperaUsuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 09:23:08 --> include(Layout/components/mensagem): Failed to open stream: No such file or directory
+in APPPATH\Views\Usuarios\index.php on line 22.
+ 1 APPPATH\Views\Usuarios\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Layout/components/mensagem): Failed to open stream: No such file or directory', 'APPPATH\\Views\\Usuarios\\index.php', 22)
+ 2 APPPATH\Views\Usuarios\index.php(22): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Usuarios\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Usuarios/index', [], true)
+ 6 APPPATH\Controllers\Usuarios.php(22): view('Usuarios/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 09:24:40 --> include(Layout/mensagem): Failed to open stream: No such file or directory
+in APPPATH\Views\Usuarios\index.php on line 22.
+ 1 APPPATH\Views\Usuarios\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Layout/mensagem): Failed to open stream: No such file or directory', 'APPPATH\\Views\\Usuarios\\index.php', 22)
+ 2 APPPATH\Views\Usuarios\index.php(22): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Usuarios\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Usuarios/index', [], true)
+ 6 APPPATH\Controllers\Usuarios.php(22): view('Usuarios/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 09:24:42 --> include(Layout/mensagem): Failed to open stream: No such file or directory
+in APPPATH\Views\Usuarios\index.php on line 22.
+ 1 APPPATH\Views\Usuarios\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Layout/mensagem): Failed to open stream: No such file or directory', 'APPPATH\\Views\\Usuarios\\index.php', 22)
+ 2 APPPATH\Views\Usuarios\index.php(22): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Usuarios\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Usuarios/index', [], true)
+ 6 APPPATH\Controllers\Usuarios.php(22): view('Usuarios/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 09:25:14 --> include(Layout/Usuarios/mensagem): Failed to open stream: No such file or directory
+in APPPATH\Views\Usuarios\index.php on line 22.
+ 1 APPPATH\Views\Usuarios\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Layout/Usuarios/mensagem): Failed to open stream: No such file or directory', 'APPPATH\\Views\\Usuarios\\index.php', 22)
+ 2 APPPATH\Views\Usuarios\index.php(22): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Usuarios\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Usuarios/index', [], true)
+ 6 APPPATH\Controllers\Usuarios.php(22): view('Usuarios/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 09:25:16 --> include(Layout/Usuarios/mensagem): Failed to open stream: No such file or directory
+in APPPATH\Views\Usuarios\index.php on line 22.
+ 1 APPPATH\Views\Usuarios\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Layout/Usuarios/mensagem): Failed to open stream: No such file or directory', 'APPPATH\\Views\\Usuarios\\index.php', 22)
+ 2 APPPATH\Views\Usuarios\index.php(22): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Usuarios\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Usuarios/index', [], true)
+ 6 APPPATH\Controllers\Usuarios.php(22): view('Usuarios/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 09:25:23 --> include(Layout/Usuarios/mensagem.php): Failed to open stream: No such file or directory
+in APPPATH\Views\Usuarios\index.php on line 22.
+ 1 APPPATH\Views\Usuarios\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Layout/Usuarios/mensagem.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\Usuarios\\index.php', 22)
+ 2 APPPATH\Views\Usuarios\index.php(22): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Usuarios\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Usuarios/index', [], true)
+ 6 APPPATH\Controllers\Usuarios.php(22): view('Usuarios/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-01 10:12:38 --> Table 'ci_estimular.usuarios' doesn't exist
+ERROR - 2022-08-01 10:12:56 --> Table 'ci_estimular.usuarios' doesn't exist
+CRITICAL - 2022-08-01 10:12:56 --> Table 'ci_estimular.usuarios' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `nome`, `email`, `ativo`, `imagem`
+FROM `usuarios`
+WHERE `usuarios`.`deletado_em` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `nome`, `email`, `ativo`, `imagem`
+FROM `usuarios`
+WHERE `usuarios`.`deletado_em` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `nome`, `email`, `ativo`, `imagem`
+FROM `usuarios`
+WHERE `usuarios`.`deletado_em` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nome`, `email`, `ativo`, `imagem`
+FROM `usuarios`
+WHERE `usuarios`.`deletado_em` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Usuarios.php(42): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->recuperaUsuarios()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-01 10:13:10 --> Table 'ci_estimular.usuarios' doesn't exist
+CRITICAL - 2022-08-01 10:13:10 --> Table 'ci_estimular.usuarios' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `nome`, `email`, `ativo`, `imagem`
+FROM `usuarios`
+WHERE `usuarios`.`deletado_em` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `nome`, `email`, `ativo`, `imagem`
+FROM `usuarios`
+WHERE `usuarios`.`deletado_em` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `nome`, `email`, `ativo`, `imagem`
+FROM `usuarios`
+WHERE `usuarios`.`deletado_em` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nome`, `email`, `ativo`, `imagem`
+FROM `usuarios`
+WHERE `usuarios`.`deletado_em` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Usuarios.php(42): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->recuperaUsuarios()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-01 10:13:43 --> Table 'ci_estimular.usuarios' doesn't exist
+ERROR - 2022-08-01 10:13:52 --> Table 'ci_estimular.usuarios' doesn't exist
+CRITICAL - 2022-08-01 10:13:52 --> Table 'ci_estimular.usuarios' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `nome`, `email`, `ativo`, `imagem`
+FROM `usuarios`
+WHERE `usuarios`.`deletado_em` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `nome`, `email`, `ativo`, `imagem`
+FROM `usuarios`
+WHERE `usuarios`.`deletado_em` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `nome`, `email`, `ativo`, `imagem`
+FROM `usuarios`
+WHERE `usuarios`.`deletado_em` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nome`, `email`, `ativo`, `imagem`
+FROM `usuarios`
+WHERE `usuarios`.`deletado_em` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Usuarios.php(42): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->recuperaUsuarios()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-01 10:14:08 --> Table 'ci_estimular.usuarios' doesn't exist
+CRITICAL - 2022-08-01 10:14:08 --> Table 'ci_estimular.usuarios' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `nome`, `email`, `ativo`, `imagem`
+FROM `usuarios`
+WHERE `usuarios`.`deletado_em` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `nome`, `email`, `ativo`, `imagem`
+FROM `usuarios`
+WHERE `usuarios`.`deletado_em` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `nome`, `email`, `ativo`, `imagem`
+FROM `usuarios`
+WHERE `usuarios`.`deletado_em` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `nome`, `email`, `ativo`, `imagem`
+FROM `usuarios`
+WHERE `usuarios`.`deletado_em` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Usuarios.php(42): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->recuperaUsuarios()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-01 10:15:56 --> Table 'ci_estimular.usuarios' doesn't exist
+ERROR - 2022-08-01 10:16:12 --> Table 'ci_estimular.usuarios' doesn't exist

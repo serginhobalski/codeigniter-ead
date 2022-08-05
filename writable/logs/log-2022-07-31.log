@@ -1,0 +1,26 @@
+CRITICAL - 2022-07-31 23:03:41 --> include(../Layout/components/head.php): Failed to open stream: No such file or directory
+in APPPATH\Views\Usuarios\index.php on line 3.
+ 1 APPPATH\Views\Usuarios\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../Layout/components/head.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\Usuarios\\index.php', 3)
+ 2 APPPATH\Views\Usuarios\index.php(3): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Usuarios\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Usuarios/index', [], true)
+ 6 APPPATH\Controllers\Usuarios.php(22): view('Usuarios/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-31 23:04:53 --> require(../Layout/components/head.php): Failed to open stream: No such file or directory
+in APPPATH\Views\Usuarios\index.php on line 3.
+ 1 APPPATH\Views\Usuarios\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../Layout/components/head.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\Usuarios\\index.php', 3)
+ 2 APPPATH\Views\Usuarios\index.php(3): require()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Usuarios\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Usuarios/index', [], true)
+ 6 APPPATH\Controllers\Usuarios.php(22): view('Usuarios/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Usuarios->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
